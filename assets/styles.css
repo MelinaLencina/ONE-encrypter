@@ -8,8 +8,33 @@
 
 .alura {
   position: absolute;
+  width: 100%;
   left: 20px;
   top: 20px;
+}
+
+.dev {
+  position: absolute;
+  color: #ababab;
+  font-family: monospace;
+  font-weight: 100;
+  left: 60px;
+  top: 0px;
+}
+
+.dev a {
+  color: #8a9bee;
+  text-decoration: none;
+}
+
+.dev a:visited {
+  color: #8a9bee;
+}
+
+.dev a:hover,
+.dev a:visited:hover {
+  color: #3d53b3;
+  font-size: 14px;
 }
 
 .form-group {
