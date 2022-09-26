@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.wrapped{
+    position: relative;
+width: 375px;
+height: 933px;
+}
+
+.alura{
+    position: absolute;
+width: 375px;
+height: 96px;
+left: 0px;
+top: 0px;
+}
+
+.alura svg {
+    left: 4.27%;
+    right: 87.2%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.form-group{
+display: flex;
+justify-content: center;
+}
+
+.form-group label{
+position: absolute;
+left: 10px;
+top: 152px;
+width: 343px;
+height: 48px;
+padding: 0;
+margin: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 150%;
+color: #0A3871;
+}
+
+.form-group textarea{
+position: absolute;
+border: #0A3871 1px solid;
+left: 60px;
+top: 220px;
+}
+
+.form-buttons{
+display: flex;
+justify-content: center;
+}
+
+.button{
+    color: white;
+position: absolute;
+top: 300px;
+left: 20px;
+padding: 24px;
+gap: 8px;
+width: 300px;
+height: 67px;
+background: #0A3871;
+border-radius: 24px;
+} 
+.button:last-child{
+    color: #0A3871;
+    top: 380px;
+    background: white;
+    border: 1px solid #0A3871;
+border-radius: 24px;
+}
+
+.message{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+position: absolute;
+width: 327px;
+height: 186px;
+left: 20px;
+top: 450px;
+background: #FFFFFF;
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+
+.message .title{
+    width: 263px;
+height: 58px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+color: #343A40;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.message .subtitle{
+    width: 263px;
+height: 48px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #495057;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
