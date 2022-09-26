@@ -109,3 +109,60 @@
   box-shadow: 12px 10px 34px -8px rgba(1, 1, 1, 0.3);
   border-radius: 15px;
 }
+
+@media only screen and (min-width: 768px) {
+  body {
+    background: #f3f5fc;
+  }
+
+  .wrapped {
+    height: 100%;
+  }
+
+  .form-group label {
+    left: 34%;
+    top: 80px;
+  }
+
+  .form-group textarea {
+    position: absolute;
+    text-align: left;
+    width: 155%;
+    height: 17rem;
+    left: 34%;
+    top: 140px;
+  }
+
+  .form-buttons {
+    position: absolute;
+    left: 33%;
+    top: 510px;
+  }
+
+  .button {
+    position: static;
+    margin: 5px;
+  }
+
+  .information {
+    font-size: 1.3rem;
+    font-weight: 200;
+    width: 100%;
+    left: 37%;
+    top: 415px;
+  }
+
+  .message textarea {
+    width: 110%;
+    height: 23rem;
+    left: 200%;
+    top: 50px;
+  }
+
+  .copy {
+    width: 40%;
+    height: 2.5rem;
+    left: 250%;
+    top: 535px;
+  }
+}
